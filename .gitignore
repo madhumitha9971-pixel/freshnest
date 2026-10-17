@@ -1,0 +1,31 @@
+# Private database and generated passwords
+.instance/
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system
+.DS_Store
+Thumbs.db
